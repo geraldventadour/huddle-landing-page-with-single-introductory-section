@@ -3,10 +3,10 @@
 body {
   display: grid;
   place-items: center;
-  background: url("../images/bg-mobile.svg") variables.$Violet no-repeat;
+  background: url("./images/bg-mobile.svg") variables.$Violet no-repeat;
 
   @media (min-width: 375px) {
-    background: url("../images/bg-desktop.svg") variables.$Violet no-repeat;
+    background: url("./images/bg-desktop.svg") variables.$Violet no-repeat;
   }
 }
 
