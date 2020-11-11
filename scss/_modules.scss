@@ -1,0 +1,35 @@
+@use 'variables';
+
+.card {
+  @media (max-width: 1434px) {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: clamp(1.5rem, 6.4vw, 2.5rem);
+    line-height: (60/40);
+    margin-top: 2rem;
+  }
+
+  p {
+    font-size: clamp(1rem, 4.266vw, 1.125rem);
+    line-height: (27/18);
+    margin: 1.5rem auto;
+  }
+
+  button {
+    font-size: clamp(0.75rem, 3.2vw, 1.125rem);
+    line-height: (27/18);
+    width: 12.5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 1.75rem;
+    color: variables.$Violet;
+
+    &:hover {
+      background-color: variables.$SoftMagenta;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}
